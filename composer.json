@@ -11,9 +11,15 @@
             "homepage": "http://olivervogel.net/"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/majorgilles/image.git"
+      }
+    ],
     "require": {
         "php": ">=5.3.0",
-        "intervention/image": "dev-master|~2,>=2.2.0",
+        "intervention/image": "dev-filename_extension",
         "illuminate/cache": "~4|~5",
         "illuminate/filesystem": "~4|~5",
         "jeremeamia/SuperClosure": "~1|~2"
